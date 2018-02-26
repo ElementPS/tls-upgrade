@@ -27,7 +27,7 @@
 * Ensure the renamed file is executable and run `.\linux-tls.sh` with the proper priveleges (sudo or root)
 * Reboot the server
 
-## Instructions to support TLS 1.2 in triPOS Direct on windows manually
+## Instructions to support TLS 1.2 in triPOS Direct on linux manually
 
 Run the below commands with the proper priveleges (sudo or root):
 ```bash
