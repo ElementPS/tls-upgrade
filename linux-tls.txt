@@ -1,0 +1,18 @@
+#! /bin/bash
+
+#########################################################
+#
+# To update to the latest version of mono
+# If this file is transferred from windows to linux, then
+# the Windows CR needs to converted to Linux CR using
+# dos2Unix.
+#
+#########################################################
+
+yum install yum-utils
+rpm --import "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF"
+yum-config-manager --add-repo http://download.mono-project.com/repo/centos6/
+
+yum install mono-complete
+
+certmgr -ssl -m https://transaction.elementexpress.com
