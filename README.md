@@ -2,13 +2,13 @@
 
 ## Instructions to support TLS 1.2 in triPOS Direct on windows using the .reg file
 
-* With the proper priveleges (Admin), rename the file `windows-tls.txt` to `windows-tls.reg`
+* With the proper privileges (Admin), rename the file `windows-tls.txt` to `windows-tls.reg`
 * Double click the reg file to insert the new registry key: `SchUseStrongCrypto = 1`
 * Reboot the server
 
 ## Instructions to support TLS 1.2 in triPOS Direct on windows manually
 
-1. With the proper priveleges (Admin), start the registry editor by clicking on Start and Run. Type in "regedit" into the Run field (without quotations).
+1. With the proper privileges (Admin), start the registry editor by clicking on Start and Run. Type in "regedit" into the Run field (without quotations).
 2. Highlight Computer at the top of the registry tree. Backup the registry first by clicking on File and then on Export. Select a file location to save the registry file.
 
    * Note: You will be editing the registry. This could have detrimental effects on your computer if done incorrectly, so it is strongly advised to make a backup.
@@ -24,12 +24,12 @@
 ## Instructions to support TLS 1.2 in triPOS Direct on linux using the bash file
 
 * Rename the file `linux-tls.txt` to `linux-tls.sh`
-* Ensure the renamed file is executable and run `.\linux-tls.sh` with the proper priveleges (sudo or root)
+* Ensure the renamed file is executable and run `.\linux-tls.sh` with the proper privileges (sudo or root)
 * Reboot the server
 
 ## Instructions to support TLS 1.2 in triPOS Direct on linux manually
 
-Run the below commands with the proper priveleges (sudo or root):
+Run the below commands with the proper privileges (sudo or root):
 ```bash
 yum install yum-utils
 rpm --import "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF"
