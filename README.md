@@ -18,7 +18,7 @@ Worldpay is providing this script for the purpose of updating registry settings 
    HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NetFramework\v4.0.30319
 4. Right-click on the right pane and create a new DWORD (32-bit) Value with Name SchUseStrongCrypto.
 5. Ensure that the Value data field is set to 1 and the Base is Hexadecimal. Click on OK.
-6. Repeat steps 4 and 5 for the registry key: HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NetFramework\v4.0.30319
+6. Repeat steps 4 and 5 for the registry key: HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\\.NetFramework\v4.0.30319
 7. Reboot the server
 
 
