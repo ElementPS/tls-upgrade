@@ -5,7 +5,7 @@ Worldpay is providing this script for the purpose of updating registry settings 
 
 * With the proper privileges (Admin), rename the file `windows-tls.txt` to `windows-tls.reg`
 * Double click the reg file to insert the new registry key: `SchUseStrongCrypto = 1`
-* Reboot the server
+* Reboot the computer
 
 ## Instructions to support TLS 1.2 in triPOS Direct on windows manually
 
@@ -19,14 +19,14 @@ Worldpay is providing this script for the purpose of updating registry settings 
 4. Right-click on the right pane and create a new DWORD (32-bit) Value with Name SchUseStrongCrypto.
 5. Ensure that the Value data field is set to 1 and the Base is Hexadecimal. Click on OK.
 6. Repeat steps 4 and 5 for the registry key: HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\\.NetFramework\v4.0.30319
-7. Reboot the server
+7. Reboot the computer
 
 
 ## Instructions to support TLS 1.2 in triPOS Direct on linux using the bash file
 
 * Rename the file `linux-tls.txt` to `linux-tls.sh`
 * Ensure the renamed file is executable and run `.\linux-tls.sh` with the proper privileges (sudo or root)
-* Reboot the server
+* Reboot the computer
 
 ## Instructions to support TLS 1.2 in triPOS Direct on linux manually
 
