@@ -1,3 +1,8 @@
+
+<a href="https://developer.vantiv.com/?utm_campaign=githubcta&utm_medium=hyperlink&utm_source=github&utm_content=gotquestions">Got questions? Connect with our experts on Vantiv ONE.</a>
+
+<a href="https://developer.vantiv.com/?utm_campaign=githubcta&utm_medium=hyperlink&utm_source=github&utm_content=codingforcommerce">Are you coding for commerce? Connect with our experts on Vantiv ONE.</a>
+
 # tls-upgrade
 Worldpay is providing this script for the purpose of updating registry settings to support TLS 1.2 for secured communications.  While we have tested this script in our labs, we cannot control any subsequent alteration or implementation usage.  Customers are strongly encouraged to back up their registry before running the script and understand that it is provided without warranty.
 
